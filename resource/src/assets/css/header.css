@@ -1,0 +1,127 @@
+header {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px rgba(128, 128, 128, 0.295) solid;
+
+    .first {
+        width: 100%;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.267);
+        height: auto;
+        .container-fluid {
+            width: 85%;
+
+            img {
+                height: 30px;
+                width: 170px;
+            }
+
+            .location {
+                width: 140px;
+                height: auto;
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+
+                .loc-text {
+
+                    p {
+                        font-size: 15px;
+                        color: black;
+                        padding: 0;
+                        margin: 0;
+                        line-height: 18px;
+
+                        span {
+                            font-size: 11px;
+                            color: grey;
+
+                        }
+                    }
+                }
+
+                .locicon {
+
+                    color: white;
+                    background-color: #064C50;
+                    font-size: 43px;
+                    padding: 8px;
+                    border-radius: 50%;
+
+
+                }
+            }
+
+            input {
+                width: 620px;
+                border-radius: 5.625rem;
+                height: 51px;
+                background-color: #F3F4F6;
+                border: none;
+                padding: 15px;
+            }
+
+            ul {
+                gap: 14px;
+
+                .iconp {
+                    width: 42px;
+                    height: 42px;
+                       background-color: #064C50;
+                       color: white;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 20px;
+
+                }
+
+                .icons {
+                    width: 42px;
+                    height: 42px;
+                    background-color: white;
+                    border-radius: 50%;
+                    border: 1px solid rgba(128, 128, 128, 0.521);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 20px;
+
+                }
+                button{
+                       display: flex;
+                    align-items: center;
+                    justify-content: center;
+                           width: 42px;
+                    height: 42px;
+                    border: none;
+                    background-color: transparent;
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .second {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+
+        ul {
+            width: 85%;
+            gap: 12px;
+
+            .nav-link {
+                font-size: 16px;
+                font-family: "TikTok Sans", sans-serif;
+                font-weight: 600;
+                font-style: normal;
+                color: black;
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.hero-con {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f2f2f4;
+  border-top: 0.5px solid rgba(128, 128, 128, 0.055);
+  box-sizing: border-box;
+
+  background-image: url("https://klbtheme.com/supgor/wp-content/uploads/2025/12/slider-01.webp");
+  background-size: cover;    
+  background-position: top center;
+  background-repeat: no-repeat;  
+
+  .container{
+gap: 20px;
+
+img{
+  width: 110px;
+  height: 110px;
+}
+    h1{
+        line-height: 20px;
+                        font-size: 60px;
+  font-family: "TikTok Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+color:#064C50;
+    }
+    p{
+         font-size: 16px;
+  font-family: "TikTok Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+color:#064C50;
+    }
+    .noney{
+        border-radius: 66px;
+        width: 120px;
+        height: 50px;
+        background-color: #064C50;
+        font-size: 14px;
+        color: white;
+         font-family: "TikTok Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+    }
+      .loley{
+    background-color: transparent;
+    border: none;
+     color: #15803d;
+             font-family: "Barlow Condensed", sans-serif;
+
+  font-weight: 600;
+  font-style: normal;
+  font-size: 34px;
+ 
+  }
+  }
+}

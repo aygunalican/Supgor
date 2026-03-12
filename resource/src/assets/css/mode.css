@@ -1,0 +1,196 @@
+.dark {
+    header {
+        background-color: black;
+
+        .first {
+            .container-fluid {
+                .loc-text {
+                    p {
+                        color: white;
+
+                        span {
+                            color: white;
+                        }
+                    }
+                }
+                .locicon{
+                    background-color: #BDEB69;
+                    color: black;
+                }
+                ul{
+                    .iconp{
+                               background-color: #BDEB69;
+                        
+                                    color: rgb(0, 0, 0);
+                    }
+                  
+                }
+                input{
+                    background-color: white;
+                }
+            }
+        }
+        .second{
+            ul{
+                .nav-link{
+                    color: white;
+                }
+            }
+        }
+    }
+    .hero-con{
+        background-color: #253D27;
+        background-image: url("https://klbtheme.com/supgor/wp-content/uploads/2026/01/carousel-04-b.webp");
+            background-size: contain;    
+  background-position: top right;
+
+          .container{
+            h1{
+                color: #BDEB69;
+            }
+            p{
+                color: #BDEB69;
+            }
+            .noney{
+                background-color:#BDEB69; 
+                color: black;
+            }
+            .loley{
+                color: #FDCBD6;
+            }
+          }
+    }
+    .foot{
+        background-color: black;
+      a{
+        color:white;
+      }
+    h5{
+        color: white;
+    }
+    ul{
+        li{
+            a{
+            color: white;
+            }
+        }
+    }
+ }
+ .products{
+    background-color:#000000;
+    .categories{
+        h3{
+            color: white;
+        }
+        ul{
+            li{
+                color:white;
+            }
+        }
+    }
+
+    .oneproduct{
+        .card{
+background-color: #ffffff;
+border: 2px solid #BDEB69;
+h5{
+    color:#253D27;
+}
+.btn{
+    background-color:#BDEB69;
+    color: black;
+}
+        }
+    }
+ }
+
+ .singleproduct{
+    background-color: #000000;
+    .single{
+        
+        h1{
+            color: white;
+         
+        }
+        p{
+            color: white;
+            span{
+                color: #BDEB69;
+            }
+        }
+        h4{
+            color:#CA3F42;
+        }
+        .btn{
+            background-color: #BDEB69;
+            color: #000000;
+            box-shadow: 2px 2px 2px white;
+        }
+    }
+ }
+
+ .blog{
+    background-color: #000000;
+    .title-con{
+        color: white;
+    }
+    .blogcard{
+        img{
+            border:1px solid #BDEB69;
+        }
+        h2{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+        button{
+            background-color: #BDEB69;
+            color: #000000;
+            box-shadow: 2px 2px 2px white;
+        }
+    }
+ }
+
+ .contact{
+    background-color: #000000;
+    .left-con{
+        .first-con{
+        h1,p{
+            color: white;
+        }
+       
+    }
+     .second-con{
+        p{
+            color:#253D27;
+
+        }
+        h3{
+            color: white;
+        }
+        h6{
+            color: #BDEB69;
+        }
+        h5{
+            color: white;
+        }
+    }
+}
+.contact-con{
+    button{
+        background-color: #BDEB69;
+        color: #000000;
+        border: #BDEB69;
+        box-shadow: 2px 2px 2px black;
+    }
+    .field{
+        label{
+            color:#253D27;
+        }
+    }
+}
+   
+
+ }
+    }
